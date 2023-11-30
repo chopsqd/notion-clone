@@ -4,7 +4,7 @@ import Image from "next/image"
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
 
-export const Error = () => {
+const Error = () => {
     return (
         <div className={"h-fll flex flex-col items-center justify-center space-y-4"}>
             <Image
@@ -35,3 +35,5 @@ export const Error = () => {
         </div>
     )
 }
+
+export default Error;
