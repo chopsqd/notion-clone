@@ -2,9 +2,9 @@
 
 import {BlockNoteEditor, PartialBlock} from "@blocknote/core";
 import {BlockNoteView, useBlockNote} from "@blocknote/react";
-import "@blocknote/core/src/style.css"
 import {useTheme} from "next-themes";
 import {useEdgeStore} from "@/lib/edgestore";
+import "@blocknote/core/style.css";
 
 interface IEditorProps {
     onChange: (value: string) => void
